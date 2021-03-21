@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "vertinode",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Vertinode",
+  "description": "Vertinode fun pack!",
   "authors": [
-    "Me!"
+    "Kenny G Perez"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": ""
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/vertinode/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.vertinode.mod.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "vertinode.mixins.json"
   ],
 
   "depends": {
